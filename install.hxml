@@ -5,9 +5,9 @@
 -lib format:3.5.0
 -lib haxeui-core:git:git@github.com:haxeui/haxeui-core.git#9afd2ddf3e78af9bda632cfb62dc0a4b0d8e585a
 -lib haxeui-heaps:git:git@github.com:haxeui/haxeui-heaps.git#27df2c0927b66771f936759ebb27d93fd20c20ab
--lib heaps:git:git@github.com:HeapsIO/heaps.git#6220f4f0967bf7335d2296db8a0b6905763b29d1
+-lib heaps:git:git@github.com:HeapsIO/heaps.git#81e45c02e15282e41d89f48de187d3d73dc7d688
 -lib hscript:2.4.0
--lib hlsdl:1.5.0
+-lib hlsdl:git:git@github.com:HaxeFoundation/hashlink.git#e31db78d8e0a07e2be6816fbd8f63ad28afc8ff1#libs/sdl
 -lib hlopenal:1.5.0
 -lib html-entities:1.0.0
 -lib tink_anon:0.5.1
@@ -26,4 +26,3 @@
 -lib tink_streams:0.3.2
 -lib tink_stringly:0.4.0
 -lib tink_syntaxhub:0.4.3
--lib travix:0.14.1
