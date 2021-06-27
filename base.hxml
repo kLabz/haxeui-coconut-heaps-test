@@ -1,0 +1,8 @@
+-cp src
+-main Playground
+-lib coconut.haxeui
+-lib heaps
+-lib haxeui-core
+-lib haxeui-heaps
+
+-D theme=dark
