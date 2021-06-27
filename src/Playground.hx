@@ -28,6 +28,7 @@ class MyView extends View {
 		<VBox>
 			<Button text="Clicked ${counter} times" onClick={counter++} padding={0} />
 			<Button text="Clicked ${counter} times" onClick={counter++} />
+			<Button text="Will be cleared on next update" />
 		</VBox>;
 
 			// <Label text="Clicked $counter times" />
