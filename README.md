@@ -1,6 +1,6 @@
 Tested with haxe 4.2.2
 
-```
+```sh
 haxelib install --skip-dependencies --always install.hxml
 
 # Cannot use this with install.hxml?

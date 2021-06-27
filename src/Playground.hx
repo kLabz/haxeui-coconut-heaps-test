@@ -6,12 +6,12 @@ import haxe.ui.HaxeUIApp;
 import haxe.ui.core.Component;
 import haxe.ui.core.Screen;
 import haxe.ui.components.Button;
-// import haxe.ui.components.Label;
 import haxe.ui.containers.VBox;
 
 class Playground {
 	static function main() {
 		var app = new HaxeUIApp();
+
 		app.ready(function() {
 			var root = new Component();
 			Screen.instance.addComponent(root);
@@ -28,22 +28,6 @@ class MyView extends View {
 		<VBox>
 			<Button text="Clicked ${counter} times" onClick={counter++} padding={0} />
 			<Button text="Clicked ${counter} times" onClick={counter++} />
-			<Button text="Will be cleared on next update" />
+			<Button text="Label will be empty on next update" />
 		</VBox>;
-
-			// <Label text="Clicked $counter times" />
-			// <ComplexButton title="Complex Button $counter" />
-
-	// override function viewDidMount() {
-	// 	new haxe.Timer(1000).run = function() {
-	// 		counter += 1;
-	// 	}
-	// }
 }
-
-// class ComplexButton extends View {
-// 	@:attribute var title:String;
-
-// 	function render() <Button text={title} />;
-
-// }
